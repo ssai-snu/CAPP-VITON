@@ -1,0 +1,15 @@
+Download weights and sample_results
+https://drive.google.com/file/d/1Cp-JBBpOmvQp8nttmInmr-hNyksFgXAC/view?usp=sharing
+
+
+copy background network weights files to : 
+VITON/background/checkpoint/
+
+copy CIHP_PGN weights files to :
+VITON/CIHP_PGN\checkpoint/CIHP_pgn/
+
+using cmake build openpose inside:
+VITON/openpose/
+
+copy CIHP_PGN weights files to :
+VITON/VITON-HD/checkpoints/
